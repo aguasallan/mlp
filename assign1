@@ -32,7 +32,7 @@ list1.lower()[:7]
 f) print ‘C’
 list1[:1]
 g) print ‘COMORIN’ in reverse
-
+list1[0:7][6::-1]
 h) calculate length of the string
 
 4. s = (“Rabbit”, 3, ‘A’, “n”, “Python”, 3, “Apple”, 3)
