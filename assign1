@@ -1,0 +1,54 @@
+1. a = 30, b = 20, c = 10, d = 5
+a) e = (a + b) * c / d
+100
+b) e = (a + b) * (c / d)
+100
+c) e = (a + b) * c / d
+100
+d) a + (b * c) / d
+70
+2. a = 8, c = 2
+a) c += a
+10
+b) c *= a
+16
+c) c /= a
+1
+d) c **= a
+256
+3. Slicing
+‘COMORIN CONSULTING SERVICES’
+a) print in reverse
+list1 = “COMORIN CONSULTING SERVICES”
+list1.[::-1]
+b) print all even indices
+list1[1:25:2]
+c) print ‘CONSULTING’
+list1[7:18]
+d) print ‘COM’
+list1[::3]
+e) print ‘comorin’
+list1.lower()[:7]
+f) print ‘C’
+list1[:1]
+g) print ‘COMORIN’ in reverse
+
+h) calculate length of the string
+
+4. s = (“Rabbit”, 3, ‘A’, “n”, “Python”, 3, “Apple”, 3)
+a) print the third element of the tuple using indices
+b) print the second element from last by negative indices
+c) Find the number of times 3 appears in the tuple
+d) Find the index of “Python”
+5. R = [ 1, 2, “one”, “two”]
+How is the below output obtained?
+a) [ 1, 2, “two”]
+b) [ 1, 2, “one”, “two”, “eight”]
+c) [ 1, 2, “one”, “two”, 1, 2, “one”, “two”]
+6. S = (1, 8, 4)
+How is the below output obtained?
+a) (1, 8, 4, 1, 8, 4, 1, 8, 4)
+b) (1, 8, 4, 3, 2)
+7. L = (“cat”, “dog”, “apple”)
+How is the below output obtained?
+a) (“apple”, “cat”, “dog”)
