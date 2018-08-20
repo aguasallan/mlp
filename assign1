@@ -35,12 +35,16 @@ g) print ‘COMORIN’ in reverse
 list1[0:7][6::-1]
 list1[6::-1]
 h) calculate length of the string
-
+len(list1)
 4. s = (“Rabbit”, 3, ‘A’, “n”, “Python”, 3, “Apple”, 3)
 a) print the third element of the tuple using indices
+s[2]
 b) print the second element from last by negative indices
+s[-2]
 c) Find the number of times 3 appears in the tuple
+s.count(3)
 d) Find the index of “Python”
+
 5. R = [ 1, 2, “one”, “two”]
 How is the below output obtained?
 a) [ 1, 2, “two”]
